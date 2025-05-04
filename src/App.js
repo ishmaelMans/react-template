@@ -1,4 +1,7 @@
-import Body from "./components/Body";
+import { BrowserRouter, useRoutes } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./components/Global";
 
@@ -11,20 +14,34 @@ const theme = {
     slate100: "hsl(202, 86%, 94%)",
     slate300: "hsl(203, 41%, 72%)",
     slate500: "hsl(200, 26%, 54%)",
-    slate700: "hsl(200, 24%, 40%)",
-    slate900: "hsl(202, 55%, 16%)",
-    slate1000: "hsl(202, 55%, 10%)",
+    grey: "#e1e1e1",
+    lightBlue: "#00a6e4",
+    darkBlue: "#253340",
   },
-  mobile: 450,
+  breakpoints: {
+    mobile: "480px",
+    tablet: "768px",
+    laptop: "1070px",
+  },
 };
+
+function AppRoutes() {
+  return useRoutes([
+    { path: "/", element: <Home /> },
+    { path: "/about", element: <About /> },
+    { path: "/contact", element: <Contact /> },
+  ]);
+}
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <>
-        <Body />
-      </>
+      <BrowserRouter>
+        <>
+          <AppRoutes />
+        </>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
