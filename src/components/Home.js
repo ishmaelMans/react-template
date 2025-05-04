@@ -369,7 +369,7 @@ const Home = () => {
                   environmental practice, and operate in a sustainable manner.
                   As lovers of plants and the environment it is only natural for
                   us to want to reduce man’s impact wherever possible. Colin and
-                  the staff at Queak are committed to helping people make
+                  the staff at Rade are committed to helping people make
                   sustainable choices in their house.
                 </p>
                 <button className="btn">Read More</button>
