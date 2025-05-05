@@ -29,7 +29,7 @@ const DisplaySection = styled.div`
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
         width: 100%;
-        padding: 0 60px;
+        padding: 0 30px;
       }
 
       h1 {

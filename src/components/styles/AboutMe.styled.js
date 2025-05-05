@@ -40,6 +40,7 @@ const AboutMe = styled.section`
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
         width: 100%;
         margin-top: 50px;
+        padding: 0 20px;
       }
 
       h3 {
