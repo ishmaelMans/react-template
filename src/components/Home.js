@@ -272,9 +272,8 @@ const Home = () => {
                 <article className="showcase">
                   <h1>An expert cleaning service you can trust</h1>
                   <p>
-                    Rade company is a minority owned business with large group
-                    of specially trained, dedicated employees to provide
-                    professional service.
+                    Rade integrated services Ltd is a team of specially trained,
+                    dedicated employees to orivide professional service.
                   </p>
                   <button className="btn">Learn More</button>
                 </article>
@@ -341,8 +340,11 @@ const Home = () => {
                 <img src={Cleaning} alt="cleaning" />
               </div>
               <div className="col-2">
-                <h3>About Company</h3>
-                <h1>One Stop Commercial Cleaning Company</h1>
+                <h3>About</h3>
+                <h1>
+                  One-Stop Solution for Professional Cleaning Services in the
+                  Uk!
+                </h1>
                 <p>
                   Our mission is not only to meet your expectations but to
                   exceed them, we also provide many more like condos and
@@ -362,15 +364,15 @@ const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col-1">
-                <h3>Why Choos Us</h3>
+                <h3>Why Choose Us</h3>
                 <h1>Our Expertise Making Your Business Shine</h1>
                 <p>
-                  At Rade we believe that we have a duty to adhere to good
-                  environmental practice, and operate in a sustainable manner.
-                  As lovers of plants and the environment it is only natural for
-                  us to want to reduce man’s impact wherever possible. Colin and
-                  the staff at Rade are committed to helping people make
-                  sustainable choices in their house.
+                  At Rade integrated services ltd we believe that we have a duty
+                  to adhere to good environmental practice, and operate in a
+                  sustainable manner. As lovers of plants and the environment it
+                  is only natural for us to want to reduce man’s impact wherever
+                  possible. Colin and the staff at Rade are committed to helping
+                  people make sustainable choices in their house.
                 </p>
                 <button className="btn">Read More</button>
               </div>
