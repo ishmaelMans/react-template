@@ -47,13 +47,13 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="phone">
-                      <a href="tel:123655233">
+                      <a href="tel: 07405675285">
                         <i className="fa-solid fa-phone-volume fa-shake"></i>
                       </a>
                       <p>
                         <label htmlFor="">Have any question?</label>
                         <br />
-                        "Free: +234 708 8607 716"
+                        "Free: 07405675285"
                       </p>
                     </div>
                   </div>
