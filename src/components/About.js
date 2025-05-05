@@ -352,9 +352,9 @@ const About = () => {
               <div className="section about_us">
                 <h3>About Us</h3>
                 <p>
-                  At Rade Integrated Services, we deliver tailored cleaning
+                  At Rade Integrated Services Ltd. We deliver tailored cleaning
                   services with excellence, reliability, and customer
-                  satisfaction as a premier industry provider
+                  satisfation as a prmier industry provider.
                 </p>
               </div>
               <div className="section services">
@@ -362,11 +362,15 @@ const About = () => {
                 <ul>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#house">House Cleaning</a>
+                    <a href="#house">Residentail Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Office Cleaning</a>
+                    <a href="#office">Domestic Cleaning</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#office">Commercial Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
@@ -374,19 +378,20 @@ const About = () => {
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Glass Cleaning</a>
+                    <a href="#office">Window Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Kitchen Cleaning</a>
+                    <a href="#office">Over Cleaning</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#office">Hob/Extractor Cleaning</a>
                   </li>
                 </ul>
               </div>
               <div className="section contact_info">
                 <h3>Contact Info</h3>
-                <p>
-                  <a href="#contact">B69, 37 Suffolk Road, Sheffield S2 4BW</a>
-                </p>
                 <div className="main_contact">
                   <ul>
                     <li>

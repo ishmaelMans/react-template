@@ -273,8 +273,8 @@ const Home = () => {
                 <article className="showcase">
                   <h1>An expert cleaning service you can trust</h1>
                   <p>
-                    Rade integrated services Ltd is a team of specially trained,
-                    dedicated employees to orivide professional service.
+                    Rade integrated services Ltd is a team of specially trained
+                    and dedicated employees to provide professional service.
                   </p>
                   <button className="btn">Learn More</button>
                 </article>
@@ -347,12 +347,12 @@ const Home = () => {
                   Uk!
                 </h1>
                 <p>
-                  Our mission is not only to meet your expectations but to
-                  exceed them, we also provide many more like condos and
-                  apartment cleaning. Our unique 22-Step Healthy Touch Deep
-                  Cleaning System will ensure you’ll receive a healthy, thorough
-                  housecleaning with every visit. We use cleaning products that
-                  are friendly to the environment.
+                  At Rade Integrated Services Ltd, we take pride in delivering
+                  exceptional cleaning services tailored to meet the diverse
+                  needs of our valued clients. <br />
+                  With a strong commitment to excellence, reliability and
+                  customer satisfaction, we have established ourselves as a
+                  premier cleaning service provider in a industry.
                 </p>
                 <Link to="/about" className="btn">
                   Learn More
@@ -368,13 +368,22 @@ const Home = () => {
                 <h3>Why Choose Us</h3>
                 <h1>Our Expertise Making Your Business Shine</h1>
                 <p>
-                  At Rade integrated services ltd we believe that we have a duty
-                  to adhere to good environmental practice, and operate in a
-                  sustainable manner. As lovers of plants and the environment it
-                  is only natural for us to want to reduce man’s impact wherever
-                  possible. Colin and the staff at Rade are committed to helping
-                  people make sustainable choices in their house.
+                  Professional Team: Our experienced and skilled team members
+                  are fully trained to deliver exceptional cleaning services
+                  with attention to detail.
                 </p>
+                <p>
+                  Customized Solutions: We understand that every space is
+                  unique, which is why we offer tailored cleaning packages to
+                  suit your specific requirements.
+                </p>
+                <p>
+                  Competitive Pricing: Quality cleaning services should'nt break
+                  the bank. We offer affordable rates without compromising on
+                  the quality of our work.
+                </p>
+                <br />
+                <br />
                 <Link to="/about" className="btn">
                   Read More
                 </Link>
@@ -412,9 +421,9 @@ const Home = () => {
               <div className="section about_us">
                 <h3>About Us</h3>
                 <p>
-                  At Rade Integrated Services, we deliver tailored cleaning
+                  At Rade Integrated Services Ltd. We deliver tailored cleaning
                   services with excellence, reliability, and customer
-                  satisfaction as a premier industry provider
+                  satisfation as a prmier industry provider.
                 </p>
               </div>
               <div className="section services">
@@ -422,11 +431,15 @@ const Home = () => {
                 <ul>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#house">House Cleaning</a>
+                    <a href="#house">Residentail Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Office Cleaning</a>
+                    <a href="#office">Domestic Cleaning</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#office">Commercial Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
@@ -434,11 +447,15 @@ const Home = () => {
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Glass Cleaning</a>
+                    <a href="#office">Window Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Kitchen Cleaning</a>
+                    <a href="#office">Over Cleaning</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#office">Hob/Extractor Cleaning</a>
                   </li>
                 </ul>
               </div>

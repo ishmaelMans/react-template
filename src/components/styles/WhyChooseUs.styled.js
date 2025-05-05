@@ -42,9 +42,10 @@ const WhyChooseUs = styled.section`
 
       p {
         line-height: 1.7;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
       }
       .btn {
+        margin-top: 50px;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-size: 1rem;
