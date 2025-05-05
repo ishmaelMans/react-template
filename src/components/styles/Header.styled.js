@@ -45,6 +45,10 @@ const Header = styled.div`
           margin-right: 10px;
           font-size: 25px;
           color: #fff;
+          
+          @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+            margin-right: 0;
+          }
         }
 
         p {

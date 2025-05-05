@@ -5,6 +5,7 @@ import { Header } from "./styles/Header.styled";
 import { DisplaySection } from "./styles/DisplaySection.styled";
 import { AboutMe } from "./styles/AboutMe.styled";
 import { WhyChooseUs } from "./styles/WhyChooseUs.styled";
+import { MapSection } from "./styles/MapSection.styled";
 import { Footer } from "./styles/Footer.styled";
 import logo from "./assets/rade-white.png";
 import Cleaning from "./assets/pexels-karolina-grabowska-4239032.jpg";
@@ -374,7 +375,9 @@ const Home = () => {
                   possible. Colin and the staff at Rade are committed to helping
                   people make sustainable choices in their house.
                 </p>
-                <button className="btn">Read More</button>
+                <Link to="/about" className="btn">
+                  Read More
+                </Link>
               </div>
               <div className="col-2">
                 <img src={bathroom} alt="" />
@@ -382,6 +385,25 @@ const Home = () => {
             </div>
           </div>
         </WhyChooseUs>
+        <MapSection>
+          <div className="container">
+            <h2>Area We Cover</h2>
+            <p>
+              Abbeydale, Aston, Birley, Charnock, City Centre, Fulwood, Hallam,
+              Hillsborough, Meadow Head, Norton, Richmond, Sothall, Todwick,
+              Waterthorpe, Whiston and surrounding areas
+            </p>
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d607387.8547864086!2d-1.5231894547241804!3d53.51118315676702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1746381350417!5m2!1sen!2sng"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="map"
+              ></iframe>
+            </div>
+          </div>
+        </MapSection>
       </main>
       <Footer>
         <div className="row">

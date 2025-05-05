@@ -2,14 +2,12 @@ import styled from "styled-components";
 const DisplaySection = styled.div`
   display: flex;
   color: #fff;
-  // position: absolute;
-  // z-index: 999;
-  // top: 350px;
   margin-top: 200px;
   width: 100%;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .row {

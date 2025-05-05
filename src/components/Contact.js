@@ -42,7 +42,7 @@ const Contact = () => {
                       </p>
                     </div>
                     <div className="phone">
-                      <a href="tel:123655233">
+                      <a href="tel:07849619190">
                         <i className="fa-solid fa-phone-volume fa-shake"></i>
                       </a>
                       <p>
@@ -282,7 +282,7 @@ const Contact = () => {
                     <span>
                       <i class="fa-solid fa-phone"></i>
                     </span>
-                    <a href="">07849619190</a>
+                    <a href="">07769593945, 07405675285</a>
                   </li>
                   <li>
                     <span>

@@ -40,9 +40,10 @@ const WhyChooseUs = styled.section`
 
       p {
         line-height: 1.7;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
       }
       .btn {
+        text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-size: 1rem;
         padding: 20px 45px;
@@ -59,6 +60,7 @@ const WhyChooseUs = styled.section`
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
         width: 100%;
+        margin-top: 50px;
       }
 
       img {
