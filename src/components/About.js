@@ -267,15 +267,14 @@ const About = () => {
             <div className="col-2">
               <div className="first">
                 <p>
-                  Whether you need a one-time home clean, regular visits, or
-                  urgent assistance, our Edinburgh team is ready to help. We
-                  serve homeowners, letting agents, and businesses with
-                  reliable, flexible cleaning solutions. Our mission is to
-                  exceed expectations, offering condo and apartment cleaning as
-                  well. With our 22-Step Healthy Touch Deep Cleaning System,
-                  every visit ensures a thorough, healthy home. We tackle mold,
-                  mildew, dust, and pet dander using eco-friendly products,
-                  protecting both your space and the environment.
+                  Gone are the days of traditional, inefficient cleaning
+                  methods. Rade Integrated Ltd embraces cutting-edge
+                  technologies and eco-friendly products to provide
+                  comprehensive cleaning solutions tailored to the unique needs
+                  of each client. Whether it’s tackling deep-seated mold,
+                  eliminating dust and allergens, or maintaining pristine
+                  surfaces, the company’s approach guarantees excellence with
+                  every service.
                 </p>
               </div>
               <div className="second">
