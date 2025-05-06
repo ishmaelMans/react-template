@@ -338,7 +338,7 @@ const Home = () => {
                   Uk!
                 </h1>
                 <p>
-                  At Rade Integrated Services Ltd. We take pride in delivering
+                  At Rade Integrated Services Ltd, we take pride in delivering
                   exceptional cleaning services tailored to meet the diverse
                   needs of our valued clients. <br />
                   With a strong commitment to excellence, reliability and
@@ -360,7 +360,7 @@ const Home = () => {
                 <h1>Expert cleaning makes businesses shine.</h1>
 
                 <p>
-                  At Rade Integrated solution Ltd. We believe that we have a
+                  At Rade Integrated solution Ltd, we believe that we have a
                   duty to adhere to good environmental practice, and operate in
                   a sustainable manner.
                 </p>
@@ -406,9 +406,8 @@ const Home = () => {
           <div className="container">
             <h2>Area We Cover</h2>
             <p>
-              Abbeydale, Aston, Birley, Charnock, City Centre, Fulwood, Hallam,
-              Hillsborough, Meadow Head, Norton, Richmond, Sothall, Todwick,
-              Waterthorpe, Whiston and surrounding areas
+              All cities in South Yorkshire, West Yorkshire, North Yorkshire,
+              East Yorkshire, Greater Manchester.
             </p>
             <div class="map-container">
               <iframe
@@ -429,7 +428,7 @@ const Home = () => {
               <div className="section about_us">
                 <h3>About Us</h3>
                 <p>
-                  At Rade Integrated Services Ltd. We deliver tailored cleaning
+                  At Rade Integrated Services Ltd, we deliver tailored cleaning
                   services with excellence, reliability, and customer
                   satisfation as a prmier industry provider.
                 </p>

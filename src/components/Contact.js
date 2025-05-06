@@ -307,9 +307,8 @@ const Contact = () => {
           <div className="container">
             <h2>Area We Cover</h2>
             <p>
-              Abbeydale, Aston, Birley, Charnock, City Centre, Fulwood, Hallam,
-              Hillsborough, Meadow Head, Norton, Richmond, Sothall, Todwick,
-              Waterthorpe, Whiston and surrounding areas
+              All cities in South Yorkshire, West Yorkshire, North Yorkshire,
+              East Yorkshire, Greater Manchester.
             </p>
             <div class="map-container">
               <iframe
@@ -330,7 +329,7 @@ const Contact = () => {
               <div className="section about_us">
                 <h3>About Us</h3>
                 <p>
-                  At Rade Integrated Services Ltd. We deliver tailored cleaning
+                  At Rade Integrated Services Ltd, we deliver tailored cleaning
                   services with excellence, reliability, and customer
                   satisfation as a prmier industry provider.
                 </p>

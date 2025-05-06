@@ -355,7 +355,7 @@ const Services = () => {
               <div className="section about_us">
                 <h3>About Us</h3>
                 <p>
-                  At Rade Integrated Services Ltd. We deliver tailored cleaning
+                  At Rade Integrated Services Ltd, we deliver tailored cleaning
                   services with excellence, reliability, and customer
                   satisfation as a prmier industry provider.
                 </p>

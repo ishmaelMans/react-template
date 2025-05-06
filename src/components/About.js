@@ -267,20 +267,15 @@ const About = () => {
             <div className="col-2">
               <div className="first">
                 <p>
-                  Whether you want to schedule a one off clean in your home, a
-                  weekly visit or even need an emergency call out, or have a
-                  commercial cleaning need then our Edinburgh team are equipped
-                  to meet your needs. With a range of customers including
-                  letting agents as well as homeowners, our cleaners are
-                  renowned for being flexible and reliable. Our mission is not
-                  only to meet your expectations but to exceed them, we also
-                  provide many more like condos and apartment cleaning. Our
-                  unique 22-Step Healthy Touch Deep Cleaning System will ensure
-                  you’ll receive a healthy, thorough housecleaning with every
-                  visit. We’ll tackle mold and mildew. We’ll eliminate dust.
-                  We’ll eliminate on pet dander and hair. We use cleaning
-                  products that are friendly to the environment—that includes
-                  Nature’s home and your own.
+                  Whether you need a one-time home clean, regular visits, or
+                  urgent assistance, our Edinburgh team is ready to help. We
+                  serve homeowners, letting agents, and businesses with
+                  reliable, flexible cleaning solutions. Our mission is to
+                  exceed expectations, offering condo and apartment cleaning as
+                  well. With our 22-Step Healthy Touch Deep Cleaning System,
+                  every visit ensures a thorough, healthy home. We tackle mold,
+                  mildew, dust, and pet dander using eco-friendly products,
+                  protecting both your space and the environment.
                 </p>
               </div>
               <div className="second">
@@ -340,7 +335,7 @@ const About = () => {
               <div className="section about_us">
                 <h3>About Us</h3>
                 <p>
-                  At Rade Integrated Services Ltd. We deliver tailored cleaning
+                  At Rade Integrated Services Ltd, we deliver tailored cleaning
                   services with excellence, reliability, and customer
                   satisfation as a prmier industry provider.
                 </p>
