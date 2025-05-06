@@ -10,6 +10,9 @@ import { Footer } from "./styles/Footer.styled";
 import logo from "./assets/rade-white.png";
 import Cleaning from "./assets/pexels-karolina-grabowska-4239032.jpg";
 import bathroom from "./assets/pexels-pixabay-534116.jpg";
+import professional from "./assets/professional-icon.svg";
+import custom from "./assets/custom-icon.svg";
+import price from "./assets/price.svg";
 
 const Home = () => {
   const [isClick, setIsClick] = useState(false);
@@ -347,7 +350,7 @@ const Home = () => {
                   Uk!
                 </h1>
                 <p>
-                  At Rade Integrated Services Ltd, we take pride in delivering
+                  At Rade Integrated Services Ltd. We take pride in delivering
                   exceptional cleaning services tailored to meet the diverse
                   needs of our valued clients. <br />
                   With a strong commitment to excellence, reliability and
@@ -367,20 +370,11 @@ const Home = () => {
               <div className="col-1">
                 <h3>Why Choose Us</h3>
                 <h1>Our Expertise Making Your Business Shine</h1>
+
                 <p>
-                  Professional Team: Our experienced and skilled team members
-                  are fully trained to deliver exceptional cleaning services
-                  with attention to detail.
-                </p>
-                <p>
-                  Customized Solutions: We understand that every space is
-                  unique, which is why we offer tailored cleaning packages to
-                  suit your specific requirements.
-                </p>
-                <p>
-                  Competitive Pricing: Quality cleaning services should'nt break
-                  the bank. We offer affordable rates without compromising on
-                  the quality of our work.
+                  At Rade Integrated solution Ltd. We believe that we have a
+                  duty to adhere to good environmental practice, and operate in
+                  a sustainable manner.
                 </p>
                 <br />
                 <br />
@@ -390,6 +384,32 @@ const Home = () => {
               </div>
               <div className="col-2">
                 <img src={bathroom} alt="" />
+              </div>
+              <div className="col-3">
+                <div className="whychoose pro">
+                  <img src={professional} alt="" width="50" height="50" />
+                  <h2>Professional Team</h2>
+                  <p>
+                    Skilled professionals deliver top-quality, detailed cleaning
+                    services with expertise.
+                  </p>
+                </div>
+                <div className="whychoose customize">
+                  <img src={custom} alt="" width="50" height="50" />
+                  <h2>Customized Solutions</h2>
+                  <p>
+                    Tailored cleaning packages designed for unique spaces,
+                    meeting specific needs.
+                  </p>
+                </div>
+                <div className="whychoose pricing">
+                  <img src={price} alt="" width="50" height="50" />
+                  <h2>Competitive Pricing</h2>
+                  <p>
+                    Affordable cleaning with top quality—great service without
+                    extra cost.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

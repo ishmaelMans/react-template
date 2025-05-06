@@ -20,8 +20,8 @@ const WhyChooseUs = styled.section`
     }
 
     .col-1 {
-      width: 50%;
-      padding: 20px 50px;
+      width: 35%;
+      padding: 20px 30px;
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
         width: 100%;
@@ -29,15 +29,16 @@ const WhyChooseUs = styled.section`
       }
 
       h3 {
-        color: green;
+        color: ${({ theme }) => theme.color.lightBlue};
         margin-bottom: 20px;
       }
 
       h1 {
+        font-family: "Poppins", sans-serif;
         line-height: 1.3;
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-bottom: 20px;
-        font-weight: bold;
+        font-weight: 700;
       }
 
       p {
@@ -58,7 +59,8 @@ const WhyChooseUs = styled.section`
       }
     }
     .col-2 {
-      width: 50%;
+      width: 30%;
+      // padding: 0 20px;
       background-color: rgb(255, 255, 255);
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
@@ -69,7 +71,23 @@ const WhyChooseUs = styled.section`
       img {
         max-width: 100%;
         width: 100%;
-        height: 100%;
+        height: 550px;
+      }
+    }
+    .col-3 {
+      font-family: "Poppins", sans-serif;
+      width: 35%;
+      padding: 0 30px;
+
+      .whychoose {
+        margin-bottom: 30px;
+        img {
+          margin-bottom: 10px;
+        }
+        h2 {
+          margin-bottom: 10px;
+          color: ${({ theme }) => theme.color.darkBlue};
+        }
       }
     }
   }
