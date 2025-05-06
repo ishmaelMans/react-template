@@ -85,13 +85,7 @@ const About = () => {
                         </a>
                         <ul className="sub_menu">
                           <li>
-                            <a href="/service">Services Style 1</a>
-                          </li>
-                          <li>
-                            <a href="/service">Services Style 2</a>
-                          </li>
-                          <li>
-                            <a href="/service">Service Detail</a>
+                            <a href="/service">Services</a>
                           </li>
                         </ul>
                       </li>

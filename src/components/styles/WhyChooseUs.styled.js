@@ -6,7 +6,7 @@ const WhyChooseUs = styled.section`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     flex-direction: column;
-    height: 900px;
+    height: 1600px;
     margin-top: 50px;
   }
 
@@ -78,6 +78,16 @@ const WhyChooseUs = styled.section`
       font-family: "Poppins", sans-serif;
       width: 35%;
       padding: 0 30px;
+      margin-bottom: 100px;
+      height: 550px;
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+      }
 
       .whychoose {
         margin-bottom: 30px;
