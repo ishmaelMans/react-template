@@ -1,20 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { Header } from "./styles/Header.styled";
-import { DisplaySection } from "./styles/DisplaySection.styled";
-import { AboutMe } from "./styles/AboutMe.styled";
-import { WhyChooseUs } from "./styles/WhyChooseUs.styled";
-import { MapSection } from "./styles/MapSection.styled";
+import { NavBar } from "./styles/NavBar.styled";
+import { ShowCase } from "./styles/ShowCase.styled";
+import { Service } from "./styles/Service.styled";
 import { Footer } from "./styles/Footer.styled";
-import logo from "./assets/rade-white.png";
-import Cleaning from "./assets/pexels-karolina-grabowska-4239032.jpg";
+import logo from "./assets/rade-color.png";
 import bathroom from "./assets/pexels-pixabay-534116.jpg";
-import professional from "./assets/professional-icon.svg";
-import custom from "./assets/custom-icon.svg";
-import price from "./assets/price.svg";
 
-const Home = () => {
+const Services = () => {
   const [isClick, setIsClick] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
   const [isNavVisible, setIsNavVisible] = useState(false); // Track navigation visibility
@@ -29,9 +22,8 @@ const Home = () => {
   };
   return (
     <>
-      <Header>
-        <div id="header_wrap">
-          <div className="bg"></div>
+      <NavBar>
+        <div id="NavBar_wrap">
           <div className="header_top">
             <div className="container">
               <div className="header_top_inner flex">
@@ -50,13 +42,13 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="phone">
-                      <a href="tel: 07405675285">
+                      <a href="tel:123655233">
                         <i className="fa-solid fa-phone-volume fa-shake"></i>
                       </a>
                       <p>
                         <label htmlFor="">Have any question?</label>
                         <br />
-                        "Free: 07405675285"
+                        "Free: 07849619190"
                       </p>
                     </div>
                   </div>
@@ -89,12 +81,12 @@ const Home = () => {
                   <nav className="main_navigation">
                     <ul className="mastermenu">
                       <li className="menu_item">
-                        <a className="nav" href="'#">
+                        <a className="nav" href="2w">
                           Services
                         </a>
                         <ul className="sub_menu">
                           <li>
-                            <a href="/services">Services</a>
+                            <a href="/service">Services</a>
                           </li>
                         </ul>
                       </li>
@@ -107,15 +99,15 @@ const Home = () => {
                             <a href="/about">About us</a>
                           </li>
                           <li>
-                            <a href="/Our Team">Our Team</a>
+                            <a href="/our team">Our Team</a>
                           </li>
                           <li>
-                            <a href="/Gallery">Gallery</a>
+                            <a href="/gallery">Gallery</a>
                           </li>
                         </ul>
                       </li>
                       <li className="menu_item">
-                        <a className="nav" href="/">
+                        <a className="nav" href="2w">
                           Contact
                         </a>
                         <ul className="sub_menu">
@@ -123,7 +115,7 @@ const Home = () => {
                             <a href="/contact">Contact Us</a>
                           </li>
                           <li>
-                            <a href="/helps & Faqs">Helps & Faqs</a>
+                            <a href="/helps & faqs">Helps & Faqs</a>
                           </li>
                           <li>
                             <a href="/appointment">Appointment</a>
@@ -179,7 +171,7 @@ const Home = () => {
                     <i class="fa-solid fa-x"></i>
                   )}
                   {/* <i class="fa-solid fa-bars"></i>
-                            <i class="fa-solid fa-x"></i> */}
+                  <i class="fa-solid fa-x"></i> */}
                 </div>
                 {isNavVisible && (
                   <div className="site_navigation">
@@ -258,169 +250,103 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <DisplaySection>
-            <div className="container">
-              <div className="row">
-                <article className="showcase">
-                  <h1>An expert cleaning service you can trust</h1>
-                  <p>
-                    Rade integrated services Ltd is a team of specially trained
-                    and dedicated employees to provide professional service.
-                  </p>
-                  <button className="btn">Learn More</button>
-                </article>
-                {/* <div className="form">
-                  <h3>Get Free Estimate</h3>
-                  <form action="">
-                    <div className="main_form">
-                      <div className="name">
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Your Name*"
-                        />
-                      </div>
-                      <div className="phone">
-                        <input
-                          type="tel"
-                          name="phone"
-                          id="phone"
-                          placeholder="Phone Number"
-                        />
-                      </div>
-                      <div className="choose_service">
-                        <select
-                          name="service"
-                          id="service"
-                          placeholder="Choose Service"
-                        >
-                          <option value="choose service">choose service</option>
-                          <option value="House Cleaning">House Cleaning</option>
-                          <option value="Office Cleaning">
-                            Office Cleaning
-                          </option>
-                          <option value="Carpet Cleaning">
-                            Carpet Cleaning
-                          </option>
-                        </select>
-                      </div>
-                      <div className="comment">
-                        <textarea
-                          name=""
-                          id=""
-                          maxLength="2000"
-                          placeholder="Your Comment"
-                        ></textarea>
-                      </div>
-                      <div className="button">
-                        <button>Get A Quote</button>
-                      </div>
-                    </div>
-                  </form>
-                </div> */}
-              </div>
-            </div>
-          </DisplaySection>
         </div>
-      </Header>
+      </NavBar>
       <main>
-        <AboutMe>
+        <ShowCase>
+          <div className="center">
+            <h1>Services</h1>
+            <p>Home / Services</p>
+          </div>
+        </ShowCase>
+        <Service>
           <div className="container">
             <div className="row">
-              <div className="col-1">
-                <img src={Cleaning} alt="cleaning" />
-              </div>
-              <div className="col-2">
-                <h3>About</h3>
-                <h1>
-                  One-Stop Solution for Professional Cleaning Services in the
-                  Uk!
-                </h1>
-                <p>
-                  At Rade Integrated Services Ltd. We take pride in delivering
-                  exceptional cleaning services tailored to meet the diverse
-                  needs of our valued clients. <br />
-                  With a strong commitment to excellence, reliability and
-                  customer satisfaction, we have established ourselves as a
-                  premier cleaning service provider in a industry.
-                </p>
-                <Link to="/about" className="btn">
-                  Learn More
-                </Link>
+              <img src={logo} alt="" width="150px" height="50px" />
+              <h1>Provide Worldwide Service For Good Customers</h1>
+              <h3>What We Do</h3>
+              <div className="services">
+                <div className="service">
+                  <img src={bathroom} alt="" />
+                  <div className="content">
+                    <h3>Residential Cleaning</h3>
+                    <p>
+                      Imagine coming home to a completely clean, fresh smelling
+                      home after a long…
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
+                <div className="service">
+                  <img src={bathroom} alt="" />
+                  <div className="content">
+                    <h3>Commercial Cleaning</h3>
+                    <p>
+                      Imagine coming home to a completely clean, fresh smelling
+                      home after a long…
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
+                <div className="service">
+                  <img src={bathroom} alt="" />
+                  <div className="content">
+                    <h3>Domestic Cleaning</h3>
+                    <p>
+                      Imagine coming home to a completely clean, fresh smelling
+                      home after a long…
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
+                <div className="service">
+                  <img src={bathroom} alt="" />
+                  <div className="content">
+                    <h3>Carpet Cleaning</h3>
+                    <p>
+                      Imagine coming home to a completely clean, fresh smelling
+                      home after a long…
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
+                <div className="service">
+                  <img src={bathroom} alt="" />
+                  <div className="content">
+                    <h3>Window Cleaning</h3>
+                    <p>
+                      Imagine coming home to a completely clean, fresh smelling
+                      home after a long…
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
+                <div className="service">
+                  <img src={bathroom} alt="" />
+                  <div className="content">
+                    <h3>Oven Cleaning </h3>
+                    <p>
+                      Imagine coming home to a completely clean, fresh smelling
+                      home after a long…
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
+                <div className="service">
+                  <img src={bathroom} alt="" />
+                  <div className="content">
+                    <h3>Hob/Extractor Cleaning</h3>
+                    <p>
+                      Imagine coming home to a completely clean, fresh smelling
+                      home after a long…
+                    </p>
+                    <button>Read More</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </AboutMe>
-        <WhyChooseUs>
-          <div className="container">
-            <div className="row">
-              <div className="col-1">
-                <h3>Why Choose Us</h3>
-                <h1>Expert cleaning makes businesses shine.</h1>
-
-                <p>
-                  At Rade Integrated solution Ltd. We believe that we have a
-                  duty to adhere to good environmental practice, and operate in
-                  a sustainable manner.
-                </p>
-                <br />
-                <br />
-                <Link to="/about" className="btn">
-                  Read More
-                </Link>
-              </div>
-              <div className="col-2">
-                <img src={bathroom} alt="" />
-              </div>
-              <div className="col-3">
-                <div className="whychoose pro">
-                  <img src={professional} alt="" width="50" height="50" />
-                  <h2>Professional Team</h2>
-                  <p>
-                    Skilled professionals deliver top-quality, detailed cleaning
-                    services with expertise.
-                  </p>
-                </div>
-                <div className="whychoose customize">
-                  <img src={custom} alt="" width="50" height="50" />
-                  <h2>Customized Solutions</h2>
-                  <p>
-                    Tailored cleaning packages designed for unique spaces,
-                    meeting specific needs.
-                  </p>
-                </div>
-                <div className="whychoose pricing">
-                  <img src={price} alt="" width="50" height="50" />
-                  <h2>Competitive Pricing</h2>
-                  <p>
-                    Affordable cleaning with top quality—great service without
-                    extra cost.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </WhyChooseUs>
-        <MapSection>
-          <div className="container">
-            <h2>Area We Cover</h2>
-            <p>
-              Abbeydale, Aston, Birley, Charnock, City Centre, Fulwood, Hallam,
-              Hillsborough, Meadow Head, Norton, Richmond, Sothall, Todwick,
-              Waterthorpe, Whiston and surrounding areas
-            </p>
-            <div class="map-container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d607387.8547864086!2d-1.5231894547241804!3d53.51118315676702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1746381350417!5m2!1sen!2sng"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="map"
-              ></iframe>
-            </div>
-          </div>
-        </MapSection>
+        </Service>
       </main>
       <Footer>
         <div className="row">
@@ -517,4 +443,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Services;

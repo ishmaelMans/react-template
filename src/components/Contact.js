@@ -86,7 +86,7 @@ const Contact = () => {
                         </a>
                         <ul className="sub_menu">
                           <li>
-                            <a href="/service">Services</a>
+                            <a href="/services">Services</a>
                           </li>
                         </ul>
                       </li>
@@ -190,13 +190,7 @@ const Contact = () => {
                           {openMenu === "services" && (
                             <ul className="sub_menu">
                               <li>
-                                <a href="/service">Services Style 1</a>
-                              </li>
-                              <li>
-                                <a href="/service">Services Style 2</a>
-                              </li>
-                              <li>
-                                <a href="/service">Service Detail</a>
+                                <a href="/services">Services</a>
                               </li>
                             </ul>
                           )}
@@ -346,7 +340,7 @@ const Contact = () => {
                 <ul>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#house">Residentail Cleaning</a>
+                    <a href="#house">Residential Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
@@ -366,7 +360,7 @@ const Contact = () => {
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Over Cleaning</a>
+                    <a href="#office">Oven Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>

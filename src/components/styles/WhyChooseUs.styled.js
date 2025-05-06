@@ -36,7 +36,7 @@ const WhyChooseUs = styled.section`
       h1 {
         font-family: "Poppins", sans-serif;
         line-height: 1.3;
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-bottom: 20px;
         font-weight: 700;
 
