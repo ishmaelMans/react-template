@@ -30,7 +30,7 @@ const Services = () => {
                 <div className="top_left_content">
                   <div className="header_top_left">
                     <div className="email">
-                      <a href="www.google.com">
+                      <a href="mailto:info@radeintegratedservices.co.uk">
                         <i className="fa-regular fa-envelope"></i>
                       </a>
                       <p>
@@ -42,7 +42,7 @@ const Services = () => {
                       </p>
                     </div>
                     <div className="phone">
-                      <a href="tel:123655233">
+                      <a href="tel:07849619190">
                         <i className="fa-solid fa-phone-volume fa-shake"></i>
                       </a>
                       <p>
@@ -171,7 +171,7 @@ const Services = () => {
                     <i class="fa-solid fa-x"></i>
                   )}
                   {/* <i class="fa-solid fa-bars"></i>
-                  <i class="fa-solid fa-x"></i> */}
+                                  <i class="fa-solid fa-x"></i> */}
                 </div>
                 {isNavVisible && (
                   <div className="site_navigation">

@@ -38,7 +38,7 @@ const Home = () => {
                 <div className="top_left_content">
                   <div className="header_top_left">
                     <div className="email">
-                      <a href="www.google.com">
+                      <a href="mailto:info@radeintegratedservices.co.uk">
                         <i className="fa-regular fa-envelope"></i>
                       </a>
                       <p>
