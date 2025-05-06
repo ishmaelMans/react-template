@@ -304,8 +304,9 @@ const Services = () => {
                   <div className="content">
                     <h3>Carpet Cleaning</h3>
                     <p>
-                      Imagine coming home to a completely clean, fresh smelling
-                      home after a long…
+                      Revive and rejuvenate your carpets with our professional
+                      carpet cleaning services that leave them looking as good
+                      as new.
                     </p>
                     <button>Read More</button>
                   </div>

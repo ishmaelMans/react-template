@@ -267,14 +267,25 @@ const About = () => {
             <div className="col-2">
               <div className="first">
                 <p>
-                  Gone are the days of traditional, inefficient cleaning
-                  methods. Rade Integrated Ltd embraces cutting-edge
-                  technologies and eco-friendly products to provide
-                  comprehensive cleaning solutions tailored to the unique needs
-                  of each client. Whether it’s tackling deep-seated mold,
-                  eliminating dust and allergens, or maintaining pristine
-                  surfaces, the company’s approach guarantees excellence with
-                  every service.
+                  At Rade Integrated Services Ltd, we take pride in delivering
+                  exceptional cleaning services tailored to meet the diverse
+                  needs of our valued clients. With a strong commitment to
+                  excellence, reliability, and customer satisfaction, we have
+                  established ourselves as a premier cleaning service provider
+                  in the industry. Backed by a team of skilled and experienced
+                  professionals, we specialize in a wide range of cleaning
+                  services. Our comprehensive offerings cater to both
+                  residential and commercial spaces, ensuring that every corner
+                  is left spotless and sparkling. We understand the importance
+                  of a clean and organized environment in enhancing the quality
+                  of life and productivity. That's why we go above and beyond to
+                  deliver top-notch cleaning solutions that exceed our clients'
+                  expectations and create a welcoming and hygienic space for
+                  all. With a customer-centric approach, attention to detail,
+                  and a dedication to quality, Rade Integrated Services Ltd is
+                  your go-to partner for all your cleaning needs. Let us handle
+                  the dirty work while you sit back, relax, and enjoy the
+                  pristine results of our professional cleaning services.
                 </p>
               </div>
               <div className="second">

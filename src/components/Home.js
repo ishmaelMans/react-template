@@ -5,6 +5,7 @@ import { Header } from "./styles/Header.styled";
 import { DisplaySection } from "./styles/DisplaySection.styled";
 import { AboutMe } from "./styles/AboutMe.styled";
 import { WhyChooseUs } from "./styles/WhyChooseUs.styled";
+import { Reviews } from "./styles/Reviews.styled";
 import { MapSection } from "./styles/MapSection.styled";
 import { Footer } from "./styles/Footer.styled";
 import logo from "./assets/rade-white.png";
@@ -18,6 +19,50 @@ const Home = () => {
   const [isClick, setIsClick] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
   const [isNavVisible, setIsNavVisible] = useState(false); // Track navigation visibility
+
+  const [index, setIndex] = useState(0);
+  const reviews = [
+    {
+      title: "End of Tenancy Cleaning",
+      text: "Did a very Perfect job, Thank you.",
+      name: "Jamie",
+      location: "Sheffield",
+    },
+    {
+      title: "One Time Cleaning",
+      text: "Cleaner was very fast and does the job well.",
+      name: "Nada",
+      location: "Sheffield",
+    },
+    {
+      title: "Deep Cleaning",
+      text: "Thank you for the amazing job raf.. My house is now sparkling.",
+      name: "Carshena",
+      location: "Sheffield",
+    },
+    {
+      title: "Move In Cleaning",
+      text: "My house now looks perfect, will keep on using you weekly. Thanks Raf.",
+      name: "Myles W",
+      location: "Chesterfield",
+    },
+    {
+      title: "Carpet Cleaning",
+      text: "Amazing job guys!",
+      name: "Linda",
+      location: "Nottingham",
+    },
+  ];
+
+  const nextReview = () => {
+    setIndex((prevIndex) => (prevIndex + 1) % reviews.length);
+  };
+
+  const prevReview = () => {
+    if (index > 0) {
+      setIndex((prevIndex) => prevIndex - 1);
+    }
+  };
 
   const toggleNav = () => {
     setIsNavVisible(!isNavVisible);
@@ -402,6 +447,53 @@ const Home = () => {
             </div>
           </div>
         </WhyChooseUs>
+
+        <Reviews>
+          <div className="container">
+            <div className="heading">
+              <h3>Client Feedback</h3>
+              <h1>Happy Client Says About Our Company</h1>
+            </div>
+            <div className="carousel-container">
+              <div
+                className="carousel"
+                style={{ transform: `translateX(${-index * 410}px)` }}
+              >
+                {/* <div className="review">
+                  <h2>End of Tenancy Cleaning</h2>
+                  <p>Did a very Perfect job, Thank you.</p>
+                  <div className="content">
+                    <span>Jamie</span>
+                    <h3>Sheffield</h3>
+                  </div>
+                </div> */}
+                {reviews.map((review, i) => (
+                  <div key={i} className="review">
+                    <h2>{review.title}</h2>
+                    <p>{review.text}</p>
+                    <div className="content">
+                      <span>{review.name}</span>
+                      <h3>{review.location}</h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <button
+                className="carousel-button left-button"
+                onClick={prevReview}
+              >
+                &#10094;
+              </button>
+              <button
+                className="carousel-button right-button"
+                onClick={nextReview}
+              >
+                &#10095;
+              </button>
+            </div>
+          </div>
+        </Reviews>
+
         <MapSection>
           <div className="container">
             <h2>Area We Cover</h2>

@@ -19,7 +19,7 @@ const AboutMe = styled.section`
 
     .col-1 {
       height: 100%;
-      width: 50%;
+      width: 40%;
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
         width: 100%;
@@ -28,14 +28,14 @@ const AboutMe = styled.section`
       img {
         max-width: 100%;
         width: 100%;
-        height: 100%;
+        height: 500px;
       }
     }
     .col-2 {
       font-family: "Poppins", sans-serif;
       padding: 0 50px;
       height: 100%;
-      width: 50%;
+      width: 60%;
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
         width: 100%;
