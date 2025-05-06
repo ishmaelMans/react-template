@@ -39,6 +39,10 @@ const WhyChooseUs = styled.section`
         font-size: 3rem;
         margin-bottom: 20px;
         font-weight: 700;
+
+        @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+          font-size: 2rem;
+        }
       }
 
       p {

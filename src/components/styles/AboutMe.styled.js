@@ -44,7 +44,7 @@ const AboutMe = styled.section`
       }
 
       h3 {
-        color: green;
+        color: ${({ theme }) => theme.color.lightBlue};
         margin-bottom: 20px;
       }
 
@@ -55,7 +55,7 @@ const AboutMe = styled.section`
         font-weight: bold;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-          font-size: 1.8rem;
+          font-size: 2rem;
         }
       }
 
