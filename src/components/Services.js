@@ -86,7 +86,7 @@ const Services = () => {
                         </a>
                         <ul className="sub_menu">
                           <li>
-                            <a href="/service">Services</a>
+                            <a href="/services">Services</a>
                           </li>
                         </ul>
                       </li>
