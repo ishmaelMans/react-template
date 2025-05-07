@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const AboutMe = styled.section`
-  height: 700px;
+  height: 750px;
   display: flex;
   margin-bottom: 60px;
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
