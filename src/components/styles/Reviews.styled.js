@@ -40,7 +40,7 @@ const Reviews = styled.section`
     overflow: hidden;
     position: relative;
     width: 100%;
-    max-width: 1650px;
+    max-width: 1500px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
       max-width: 100%;
@@ -74,6 +74,7 @@ const Reviews = styled.section`
       gap: 30px;
       display: flex;
       align-items: flex-start;
+      justify-content: center;
       transition: transform 0.5s ease-in-out;
 
       .review {
@@ -87,7 +88,7 @@ const Reviews = styled.section`
         background-color: #fff;
         text-align: center;
         width: 100%;
-        max-width: 410px;
+        width: 410px;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
           max-width: 100%;

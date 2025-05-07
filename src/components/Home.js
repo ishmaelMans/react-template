@@ -54,6 +54,9 @@ const Home = () => {
     },
   ];
 
+  const isMobile = window.innerWidth <= 768; // Detect mobile screens
+  const itemWidth = isMobile ? 435 : 410; // Adjust width for mobile
+
   const nextReview = () => {
     setIndex((prevIndex) => (prevIndex + 1) % reviews.length);
   };
@@ -457,7 +460,7 @@ const Home = () => {
             <div className="carousel-container">
               <div
                 className="carousel"
-                style={{ transform: `translateX(${-index * 410}px)` }}
+                style={{ transform: `translateX(${-index * itemWidth}px)` }}
               >
                 {/* <div className="review">
                   <h2>End of Tenancy Cleaning</h2>
