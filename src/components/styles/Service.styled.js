@@ -5,7 +5,7 @@ const Service = styled.section`
   margin-top: 100px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    height: 4000px;
+    height: 4450px;
   }
 
   .row {
@@ -38,14 +38,21 @@ const Service = styled.section`
       flex-wrap: wrap;
       height: 500px;
       margin-top: 50px;
+
+      @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        width: 100%;
+      }
+
       .service {
         width: 380px;
-        height: 450px;
+        height: 430px;
         padding: 0 15px;
         margin-bottom: 70px;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
           width: 100%;
+          height: 500px;
+          margin-bottom: 100px;
         }
 
         img {
@@ -74,6 +81,7 @@ const Service = styled.section`
             border: none;
             padding: 10px;
             background-color: rgb(252, 210, 0);
+            // margin-bottom: 50px;
           }
         }
       }

@@ -271,8 +271,8 @@ const Services = () => {
                   <div className="content">
                     <h3>Residential Cleaning</h3>
                     <p>
-                      Imagine coming home to a completely clean, fresh smelling
-                      home after a long…
+                      Ensures spotless homes with expert care, eco-friendly
+                      products, and personalized service.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -282,8 +282,10 @@ const Services = () => {
                   <div className="content">
                     <h3>Commercial Cleaning</h3>
                     <p>
-                      Imagine coming home to a completely clean, fresh smelling
-                      home after a long…
+                      It enhances workplace hygiene, professionalism, and
+                      productivity. Our expert services ensure spotless,
+                      organized spaces with eco-friendly solutions, tailored to
+                      meet business needs efficiently.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -293,8 +295,9 @@ const Services = () => {
                   <div className="content">
                     <h3>Domestic Cleaning</h3>
                     <p>
-                      Imagine coming home to a completely clean, fresh smelling
-                      home after a long…
+                      It keeps homes spotless, ensuring comfort, hygiene, and
+                      freshness. Our expert service tackles dirt, dust, and
+                      clutter with eco-friendly solutions for a healthier space.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -304,9 +307,10 @@ const Services = () => {
                   <div className="content">
                     <h3>Carpet Cleaning</h3>
                     <p>
-                      Revive and rejuvenate your carpets with our professional
-                      carpet cleaning services that leave them looking as good
-                      as new.
+                      removes deep-seated dirt, stains, and allergens, restoring
+                      freshness and extending longevity. Our expert service
+                      revitalizes carpets using advanced techniques and
+                      eco-friendly solutions for a spotless, healthier space.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -316,8 +320,10 @@ const Services = () => {
                   <div className="content">
                     <h3>Window Cleaning</h3>
                     <p>
-                      Imagine coming home to a completely clean, fresh smelling
-                      home after a long…
+                      removes dirt, streaks, and smudges, ensuring crystal-clear
+                      views and a polished appearance. Our expert service
+                      enhances natural light, improves aesthetics, and maintains
+                      a spotless finish.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -327,8 +333,10 @@ const Services = () => {
                   <div className="content">
                     <h3>Oven Cleaning </h3>
                     <p>
-                      Imagine coming home to a completely clean, fresh smelling
-                      home after a long…
+                      removes grease, grime, and burnt residue, restoring shine
+                      and efficiency. Our expert service ensures a spotless oven
+                      using safe, eco-friendly solutions for a healthier
+                      kitchen.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -338,8 +346,9 @@ const Services = () => {
                   <div className="content">
                     <h3>Hob/Extractor Cleaning</h3>
                     <p>
-                      Imagine coming home to a completely clean, fresh smelling
-                      home after a long…
+                      removes grease, grime, and buildup, ensuring a spotless,
+                      efficient kitchen. Our expert service restores shine using
+                      safe, eco-friendly products.
                     </p>
                     <button>Read More</button>
                   </div>
