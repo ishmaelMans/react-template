@@ -86,11 +86,11 @@ const Reviews = styled.section`
         height: 300px;
         background-color: #fff;
         text-align: center;
-        min-width: 410px;
+        width: 100%;
+        max-width: 410px;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-          max-width: 300px;
-          width: 100%;
+          max-width: 100%;
         }
 
         .content {
