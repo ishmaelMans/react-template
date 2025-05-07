@@ -39,7 +39,8 @@ const Reviews = styled.section`
     height: 450px;
     overflow: hidden;
     position: relative;
-    min-width: 410px;
+    width: 100%;
+    max-width: 1650px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
       max-width: 100%;
