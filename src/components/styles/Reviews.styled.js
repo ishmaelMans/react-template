@@ -41,6 +41,10 @@ const Reviews = styled.section`
     position: relative;
     min-width: 410px;
 
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+      max-width: 100%;
+    }
+
     .carousel-button {
       position: absolute;
       top: 50%;
@@ -82,6 +86,10 @@ const Reviews = styled.section`
         height: 300px;
         background-color: #fff;
         text-align: center;
+
+        @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+          max-width: 100%;
+        }
 
         .content {
           text-align: center;
