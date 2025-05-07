@@ -2,7 +2,7 @@ import styled from "styled-components";
 const WhyChooseUs = styled.section`
   display: flex;
   margin-bottom: 100px;
-  height: 600px;
+  height: 700px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     flex-direction: column;
