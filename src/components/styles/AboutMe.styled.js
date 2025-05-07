@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const AboutMe = styled.section`
-  height: 820px;
+  height: 750px;
   display: flex;
   margin-bottom: 60px;
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    height: 900px;
+    height: 1200px;
   }
 
   .row {

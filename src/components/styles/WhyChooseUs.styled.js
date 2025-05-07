@@ -6,7 +6,7 @@ const WhyChooseUs = styled.section`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     flex-direction: column;
-    margin-top: 250px;
+    margin-top: 100px;
     height: 1700px;
   }
 
