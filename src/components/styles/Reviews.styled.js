@@ -79,7 +79,6 @@ const Reviews = styled.section`
       .review {
         font-family: "Poppins", sans-serif;
         display: flex;
-        min-width: 410px;
         padding: 20px;
         flex-direction: column;
         align-items: center;
@@ -87,9 +86,11 @@ const Reviews = styled.section`
         height: 300px;
         background-color: #fff;
         text-align: center;
+        min-width: 410px;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-          max-width: 100%;
+          max-width: 350px;
+          width: 100%;
         }
 
         .content {
