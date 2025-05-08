@@ -267,7 +267,10 @@ const Services = () => {
               <h3>What We Do</h3>
               <div className="services">
                 <div className="service">
-                  <img src={bathroom} alt="" />
+                  <img
+                    src="https://images.pexels.com/photos/7641351/pexels-photo-7641351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt=""
+                  />
                   <div className="content">
                     <h3>Residential Cleaning</h3>
                     <p>
@@ -278,7 +281,10 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service">
-                  <img src={bathroom} alt="" />
+                  <img
+                    src="https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
                   <div className="content">
                     <h3>Commercial Cleaning</h3>
                     <p>
@@ -291,7 +297,10 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service">
-                  <img src={bathroom} alt="" />
+                  <img
+                    src="https://images.pexels.com/photos/48889/cleaning-washing-cleanup-the-ilo-48889.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
                   <div className="content">
                     <h3>Domestic Cleaning</h3>
                     <p>
@@ -303,7 +312,10 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service">
-                  <img src={bathroom} alt="" />
+                  <img
+                    src="https://images.pexels.com/photos/8566430/pexels-photo-8566430.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
                   <div className="content">
                     <h3>Carpet Cleaning</h3>
                     <p>
@@ -316,7 +328,10 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service">
-                  <img src={bathroom} alt="" />
+                  <img
+                    src="https://images.pexels.com/photos/30465632/pexels-photo-30465632/free-photo-of-abstract-black-and-white-urban-worker-artwork.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
                   <div className="content">
                     <h3>Window Cleaning</h3>
                     <p>
@@ -329,7 +344,10 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service">
-                  <img src={bathroom} alt="" />
+                  <img
+                    src="https://images.pexels.com/photos/7534297/pexels-photo-7534297.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
                   <div className="content">
                     <h3>Oven Cleaning </h3>
                     <p>
@@ -342,7 +360,10 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service">
-                  <img src={bathroom} alt="" />
+                  <img
+                    src="https://images.pexels.com/photos/38325/vacuum-cleaner-carpet-cleaner-housework-housekeeping-38325.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
                   <div className="content">
                     <h3>Hob/Extractor Cleaning</h3>
                     <p>
