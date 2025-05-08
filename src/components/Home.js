@@ -55,7 +55,7 @@ const Home = () => {
   ];
 
   const isMobile = window.innerWidth <= 768; // Detect mobile screens
-  const itemWidth = isMobile ? 420 : 410; // Adjust width for mobile
+  const itemWidth = isMobile ? 220 : 410; // Adjust width for mobile
 
   const nextReview = () => {
     setIndex((prevIndex) => (prevIndex + 1) % reviews.length);
