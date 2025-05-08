@@ -5,7 +5,6 @@ import { ShowCase } from "./styles/ShowCase.styled";
 import { Service } from "./styles/Service.styled";
 import { Footer } from "./styles/Footer.styled";
 import logo from "./assets/rade-color.png";
-import bathroom from "./assets/pexels-pixabay-534116.jpg";
 
 const Services = () => {
   const [isClick, setIsClick] = useState(false);
