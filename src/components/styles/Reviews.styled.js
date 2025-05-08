@@ -91,6 +91,7 @@ const Reviews = styled.section`
         width: 410px;
 
         @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+          width: 380px;
           max-width: 100%;
         }
 

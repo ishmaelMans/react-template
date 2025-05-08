@@ -55,7 +55,7 @@ const Home = () => {
   ];
 
   const isMobile = window.innerWidth <= 768; // Detect mobile screens
-  const itemWidth = isMobile ? 435 : 410; // Adjust width for mobile
+  const itemWidth = isMobile ? 420 : 410; // Adjust width for mobile
 
   const nextReview = () => {
     setIndex((prevIndex) => (prevIndex + 1) % reviews.length);
@@ -524,7 +524,7 @@ const Home = () => {
                 <p>
                   At Rade Integrated Services Ltd, we deliver tailored cleaning
                   services with excellence, reliability, and customer
-                  satisfation as a prmier industry provider.
+                  satisfation as a premier industry provider.
                 </p>
               </div>
               <div className="section services">
