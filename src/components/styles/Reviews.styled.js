@@ -56,6 +56,11 @@ const Reviews = styled.section`
       padding: 10px 15px;
       cursor: pointer;
       border-radius: 50%;
+
+      @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        top: 95%;
+        transform: translateY(-95%);
+      }
     }
 
     .carousel-button:hover {
