@@ -305,7 +305,7 @@ const Contact = () => {
         </ContactInfo>
         <MapSection>
           <div className="container">
-            <h2>Area We Cover</h2>
+            <h2>Areas We Cover</h2>
             <p>
               All cities in South Yorkshire, West Yorkshire, North Yorkshire,
               East Yorkshire, Greater Manchester.

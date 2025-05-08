@@ -347,7 +347,7 @@ const About = () => {
                 <p>
                   At Rade Integrated Services Ltd, we deliver tailored cleaning
                   services with excellence, reliability, and customer
-                  satisfation as a prmier industry provider.
+                  satisfation as a premier industry provider.
                 </p>
               </div>
               <div className="section services">

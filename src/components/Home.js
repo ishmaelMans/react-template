@@ -405,8 +405,7 @@ const Home = () => {
             <div className="row">
               <div className="col-1">
                 <h3>Why Choose Us</h3>
-                <h1>Expert cleaning makes businesses shine.</h1>
-
+                <h1>Expert Cleaning Makes Your Space Shine.</h1>
                 <p>
                   At Rade Integrated solution Ltd, we believe that we have a
                   duty to adhere to good environmental practice, and operate in
@@ -455,7 +454,7 @@ const Home = () => {
           <div className="container">
             <div className="heading">
               <h3>Client Feedback</h3>
-              <h1>Happy Client Says About Our Company</h1>
+              <h1>Comments From Clients</h1>
             </div>
             <div className="carousel-container">
               <div
@@ -499,7 +498,7 @@ const Home = () => {
 
         <MapSection>
           <div className="container">
-            <h2>Area We Cover</h2>
+            <h2>Areas We Cover</h2>
             <p>
               All cities in South Yorkshire, West Yorkshire, North Yorkshire,
               East Yorkshire, Greater Manchester.

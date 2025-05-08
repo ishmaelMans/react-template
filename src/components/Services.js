@@ -312,7 +312,7 @@ const Services = () => {
                 </div>
                 <div className="service">
                   <img
-                    src="https://images.pexels.com/photos/8566430/pexels-photo-8566430.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://images.pexels.com/photos/1253800/pexels-photo-1253800.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
                   />
                   <div className="content">
@@ -344,7 +344,7 @@ const Services = () => {
                 </div>
                 <div className="service">
                   <img
-                    src="https://images.pexels.com/photos/7534297/pexels-photo-7534297.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
                   />
                   <div className="content">
@@ -360,7 +360,7 @@ const Services = () => {
                 </div>
                 <div className="service">
                   <img
-                    src="https://images.pexels.com/photos/38325/vacuum-cleaner-carpet-cleaner-housework-housekeeping-38325.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://images.pexels.com/photos/7534297/pexels-photo-7534297.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
                   />
                   <div className="content">
