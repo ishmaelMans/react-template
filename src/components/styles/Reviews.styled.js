@@ -58,6 +58,8 @@ const Reviews = styled.section`
       border-radius: 50%;
 
       @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        background: #fff;
+        color: #000;
         top: 95%;
         transform: translateY(-95%);
       }
@@ -65,6 +67,10 @@ const Reviews = styled.section`
 
     .carousel-button:hover {
       background: #555;
+
+      @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        background: ${({ theme }) => theme.color.lightBlue};
+      }
     }
 
     .left-button {
