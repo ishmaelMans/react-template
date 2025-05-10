@@ -120,6 +120,9 @@ const Contact = () => {
                           <li>
                             <a href="/appointment">Appointment</a>
                           </li>
+                          <li>
+                            <a href="/terms">Terms & Conditions</a>
+                          </li>
                         </ul>
                       </li>
                     </ul>
@@ -171,7 +174,7 @@ const Contact = () => {
                     <i class="fa-solid fa-x"></i>
                   )}
                   {/* <i class="fa-solid fa-bars"></i>
-                            <i class="fa-solid fa-x"></i> */}
+                                        <i class="fa-solid fa-x"></i> */}
                 </div>
                 {isNavVisible && (
                   <div className="site_navigation">
@@ -240,6 +243,10 @@ const Contact = () => {
                               <li>
                                 <a href="/appointment">Appointment</a>
                               </li>
+                              <li>
+                                <a href="/terms">Terms & Conditions</a>
+                              </li>
+                              s
                             </ul>
                           )}
                         </li>

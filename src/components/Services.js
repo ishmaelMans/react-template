@@ -119,6 +119,9 @@ const Services = () => {
                           <li>
                             <a href="/appointment">Appointment</a>
                           </li>
+                          <li>
+                            <a href="/terms">Terms & Conditions</a>
+                          </li>
                         </ul>
                       </li>
                     </ul>
@@ -239,6 +242,10 @@ const Services = () => {
                               <li>
                                 <a href="/appointment">Appointment</a>
                               </li>
+                              <li>
+                                <a href="/terms">Terms & Conditions</a>
+                              </li>
+                              s
                             </ul>
                           )}
                         </li>
@@ -318,10 +325,9 @@ const Services = () => {
                   <div className="content">
                     <h3>Carpet Cleaning</h3>
                     <p>
-                      removes deep-seated dirt, stains, and allergens, restoring
-                      freshness and extending longevity. Our expert service
-                      revitalizes carpets using advanced techniques and
-                      eco-friendly solutions for a spotless, healthier space.
+                      Revive and rejuvenate your carpets with our professional
+                      carpet cleaning services that leave them looking as good
+                      as new.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -334,10 +340,8 @@ const Services = () => {
                   <div className="content">
                     <h3>Window Cleaning</h3>
                     <p>
-                      removes dirt, streaks, and smudges, ensuring crystal-clear
-                      views and a polished appearance. Our expert service
-                      enhances natural light, improves aesthetics, and maintains
-                      a spotless finish.
+                      Get ready to shine! We bring your windows to life with our
+                      expert cleaning service.
                     </p>
                     <button>Read More</button>
                   </div>
@@ -366,9 +370,10 @@ const Services = () => {
                   <div className="content">
                     <h3>Hob/Extractor Cleaning</h3>
                     <p>
-                      removes grease, grime, and buildup, ensuring a spotless,
-                      efficient kitchen. Our expert service restores shine using
-                      safe, eco-friendly products.
+                      With numerous five-star reviews, we have expertly cleaned
+                      a wide range of ovens, including gas and electric, to our
+                      sparkling best. If you’re looking for professional oven
+                      cleaning near you, look no further than our team.
                     </p>
                     <button>Read More</button>
                   </div>

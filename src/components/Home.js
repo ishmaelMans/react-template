@@ -52,6 +52,12 @@ const Home = () => {
       name: "Linda",
       location: "Nottingham",
     },
+    {
+      title: "After Renovation Cleaning",
+      text: "My Dad said you did a good jobThank you guys ",
+      name: "Nevila",
+      location: "Sheffield",
+    },
   ];
 
   const isMobile = window.innerWidth <= 768; // Detect mobile screens
@@ -176,6 +182,9 @@ const Home = () => {
                           <li>
                             <a href="/appointment">Appointment</a>
                           </li>
+                          <li>
+                            <a href="/terms">Terms & Conditions</a>
+                          </li>
                         </ul>
                       </li>
                     </ul>
@@ -295,6 +304,9 @@ const Home = () => {
                               </li>
                               <li>
                                 <a href="/appointment">Appointment</a>
+                              </li>
+                              <li>
+                                <a href="/terms">Terms & Conditions</a>
                               </li>
                             </ul>
                           )}

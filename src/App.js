@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import Terms from "./components/Terms";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./components/Global";
 
@@ -31,6 +32,7 @@ function AppRoutes() {
     { path: "/", element: <Home /> },
     { path: "/about", element: <About /> },
     { path: "/contact", element: <Contact /> },
+    { path: "/terms", element: <Terms /> },
     { path: "/services", element: <Services /> },
   ]);
 }
