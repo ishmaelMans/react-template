@@ -283,7 +283,7 @@ const Services = () => {
                       Ensures spotless homes with expert care, eco-friendly
                       products, and personalized service.
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                   </div>
                 </div>
                 <div className="service">
@@ -299,7 +299,7 @@ const Services = () => {
                       organized spaces with eco-friendly solutions, tailored to
                       meet business needs efficiently.
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                   </div>
                 </div>
                 <div className="service">
@@ -314,7 +314,7 @@ const Services = () => {
                       freshness. Our expert service tackles dirt, dust, and
                       clutter with eco-friendly solutions for a healthier space.
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                   </div>
                 </div>
                 <div className="service">
@@ -329,7 +329,7 @@ const Services = () => {
                       carpet cleaning services that leave them looking as good
                       as new.
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                   </div>
                 </div>
                 <div className="service">
@@ -343,7 +343,7 @@ const Services = () => {
                       Get ready to shine! We bring your windows to life with our
                       expert cleaning service.
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                   </div>
                 </div>
                 <div className="service">
@@ -359,7 +359,7 @@ const Services = () => {
                       using safe, eco-friendly solutions for a healthier
                       kitchen.
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                   </div>
                 </div>
                 <div className="service">
@@ -375,7 +375,7 @@ const Services = () => {
                       sparkling best. If you’re looking for professional oven
                       cleaning near you, look no further than our team.
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                   </div>
                 </div>
               </div>
