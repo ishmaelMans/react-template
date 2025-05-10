@@ -400,31 +400,31 @@ const Services = () => {
                 <ul>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#house">Residential Cleaning</a>
+                    <a href="/services">Residential Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Domestic Cleaning</a>
+                    <a href="/services">Domestic Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Commercial Cleaning</a>
+                    <a href="/services">Commercial Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Carpet Cleaning</a>
+                    <a href="/services">Carpet Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Window Cleaning</a>
+                    <a href="/services">Window Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Oven Cleaning</a>
+                    <a href="/services">Oven Cleaning</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-angle-right"></i>
-                    <a href="#office">Hob/Extractor Cleaning</a>
+                    <a href="/services">Hob/Extractor Cleaning</a>
                   </li>
                 </ul>
               </div>
