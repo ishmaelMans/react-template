@@ -3,7 +3,7 @@ import clip from "../assets/bg-clip.svg";
 
 const Header = styled.div`
   @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
-  
+
   #header_wrap {
     position: relative;
     font-family: "Roboto", sans-serif;
@@ -17,8 +17,8 @@ const Header = styled.div`
     margin-bottom: 120px;
 
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-        min-height: 300px;
-      }
+      min-height: 300px;
+    }
   }
 
   .header_top {
@@ -45,7 +45,7 @@ const Header = styled.div`
           margin-right: 10px;
           font-size: 25px;
           color: #fff;
-          
+
           @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
             margin-right: 0;
           }
@@ -53,7 +53,7 @@ const Header = styled.div`
 
         p {
           line-height: 1.5;
-          font-size: .9rem;
+          font-size: 0.9rem;
 
           @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
             // visibility: hidden;
@@ -72,7 +72,7 @@ const Header = styled.div`
         }
         p {
           line-height: 1.5;
-          font-size: .9rem;
+          font-size: 0.9rem;
 
           @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
             display: none;
@@ -85,12 +85,12 @@ const Header = styled.div`
       display: flex;
       align-items: center;
       position: relative;
-      p{
-          font-size: .9rem;
+      p {
+        font-size: 0.9rem;
 
-          @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
-            display: none;
-          }
+        @media (max-width: ${({ theme }) => theme.breakpoints.laptop}) {
+          display: none;
+        }
       }
 
       .top_right_button a {
@@ -102,18 +102,16 @@ const Header = styled.div`
         color: #000;
         transition: background 300ms ease-in-out;
 
-        &:hover{
-        background-color: ${({ theme }) => theme.color.lightBlue};
-        color: #fff;
+        &:hover {
+          background-color: ${({ theme }) => theme.color.lightBlue};
+          color: #fff;
         }
       }
     }
   }
 
- 
-
   .site_header {
-    border-top: 1px solid rgba(255, 255,255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
       display: none;
@@ -147,22 +145,21 @@ const Header = styled.div`
             position: relative;
             list-style: none;
             padding: 20px 60px 20px 0;
-            
 
-            .nav  {
+            .nav {
               text-decoration: none;
               color: #fff;
 
-              &:hover{
-              border-top: 2px solid #fff;
-              padding-top: 34px;
+              &:hover {
+                border-top: 2px solid #fff;
+                padding-top: 34px;
               }
 
               &::after {
                 content: "";
                 position: absolute;
                 margin-left: 5px;
-                opacity: .5;
+                opacity: 0.5;
                 font-family: "Font Awesome 6 Free";
                 font-weight: 900;
               }
@@ -185,13 +182,13 @@ const Header = styled.div`
                 width: 200px;
                 color: #000;
 
-                a{
-                color: ${(props) => props.theme.color.darkBlue};
-                line-height: 1.5;
-                text-decoration: none;
+                a {
+                  color: ${(props) => props.theme.color.darkBlue};
+                  line-height: 1.5;
+                  text-decoration: none;
 
-                  &:hover{
-                    color:${(props) => props.theme.color.lightBlue}
+                  &:hover {
+                    color: ${(props) => props.theme.color.lightBlue};
                   }
                 }
               }
@@ -232,54 +229,49 @@ const Header = styled.div`
             0% {
               transform: scale(1);
             }
-            ,
             100% {
               transform: scale(1);
             }
             50% {
               transform: scale(1.1);
             }
-            ,
-            
           }
         }
       }
     }
   }
 
-  .mobile_header{
+  .mobile_header {
     display: none;
-      @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-            display: block;
-          }
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+      display: block;
+    }
 
-    .mobile_row{
+    .mobile_row {
       display: flex;
       justify-content: space-between;
       align-items: center;
       position: relative;
-      
-      .open-menu{
+
+      .open-menu {
         font-size: 1.5rem;
       }
 
-      .site_navigation{
+      .site_navigation {
         background-color: #fff;
         position: absolute;
         width: 100%;
         top: 80px;
         padding: 30px 15px;
 
+        .mastermenu {
+          .menu_item {
+            line-height: 3;
 
-        .mastermenu{
-          .menu_item{
-          line-height: 3;
-
-          &::after{
-            content: "";
-            
-          }
-            a{
+            &::after {
+              content: "";
+            }
+            a {
               text-decoration: none;
               color: ${({ theme }) => theme.color.darkBlue};
               font-family: "Poppins", sans-serif;
@@ -287,19 +279,17 @@ const Header = styled.div`
             }
 
             list-style: none;
-            .sub_menu{
+            .sub_menu {
               // display: none;
               list-style: none;
-                li{
-                  a{
-                    text-decoration: none;
-                  }
+              li {
+                a {
+                  text-decoration: none;
                 }
-            
+              }
             }
           }
         }
-
       }
     }
   }

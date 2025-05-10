@@ -45,15 +45,21 @@ const DisplaySection = styled.div`
           font-size: 50px;
         }
       }
+
+      p {
+        margin-bottom: 40px;
+      }
       .btn {
-        color: rgb(18, 35, 107);
-        font-weight: bold;
-        font-size: 1.1rem;
-        margin-top: 40px;
-        border-radius: 30px;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        padding: 20px 45px;
         border: none;
-        padding: 20px 40px;
-        transition: background 300ms ease-in-out;
+        border-radius: 35px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        background-color: rgb(252, 210, 0);
+        /* margin-top: 30px; */
 
         &:hover {
           background-color: green;

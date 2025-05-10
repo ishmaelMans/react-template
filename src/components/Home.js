@@ -327,8 +327,8 @@ const Home = () => {
                     Rade integrated services Ltd is a team of specially trained
                     and dedicated employees to provide professional service.
                   </p>
-                  <button className="btn">Learn More</button>
-                  <Link to="/service" className="btn">
+                  {/* <button className="btn">Learn More</button> */}
+                  <Link to="/services" className="btn">
                     Learn More
                   </Link>
                 </article>
