@@ -328,6 +328,9 @@ const Home = () => {
                     and dedicated employees to provide professional service.
                   </p>
                   <button className="btn">Learn More</button>
+                  <Link to="/service" className="btn">
+                    Learn More
+                  </Link>
                 </article>
                 {/* <div className="form">
                   <h3>Get Free Estimate</h3>
