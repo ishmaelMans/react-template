@@ -516,7 +516,7 @@ const Home = () => {
             <h2>Areas We Cover</h2>
             <p>
               All cities in South Yorkshire, West Yorkshire, North Yorkshire,
-              East Yorkshire, East Midlands, Greater Manchester.
+              East Yorkshire, East Midlands and Greater Manchester.
             </p>
             <div class="map-container">
               <iframe
