@@ -269,8 +269,8 @@ const Contact = () => {
           <div className="container">
             <div className="row">
               <div className="col-1">
-                <h3>Contact Information</h3>
-                <h1>Have Any Question? Contact With Us</h1>
+                {/* <h3>Contact Information</h3> */}
+                <h1>Have Any Question? Contact Us</h1>
                 <ul>
                   <li>
                     <span>

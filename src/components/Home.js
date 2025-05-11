@@ -396,10 +396,7 @@ const Home = () => {
               </div>
               <div className="col-2">
                 <h3>About</h3>
-                <h1>
-                  One-Stop Solution for Professional Cleaning Services in the
-                  Uk!
-                </h1>
+                <h1>One-Stop Solution for Professional Cleaning Services</h1>
                 <p>
                   At Rade Integrated Services Ltd, we take pride in delivering
                   exceptional cleaning services tailored to meet the diverse
@@ -422,7 +419,7 @@ const Home = () => {
                 <h3>Why Choose Us</h3>
                 <h1>Expert Cleaning Makes Your Space Shine.</h1>
                 <p>
-                  At Rade Integrated solution Ltd, we believe that we have a
+                  At Rade Integrated Services Ltd, we believe that we have a
                   duty to adhere to good environmental practice, and operate in
                   a sustainable manner.
                 </p>

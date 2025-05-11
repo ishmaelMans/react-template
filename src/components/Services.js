@@ -279,8 +279,9 @@ const Services = () => {
                   <div className="content">
                     <h3>Residential Cleaning</h3>
                     <p>
-                      Ensures spotless homes with expert care, eco-friendly
-                      products, and personalized service.
+                      Restore freshness and hygiene to your space with our
+                      thorough cleaning services that reach every nook and
+                      cranny.
                     </p>
                     {/* <button>Read More</button> */}
                   </div>
