@@ -58,6 +58,12 @@ const Home = () => {
       name: "Nevila",
       location: "Sheffield",
     },
+    {
+      title: "Oven Cleaning",
+      text: "I would rate you very good. I had a quick responce from you.I was very pleased with the work done & would recommend. Thank you ",
+      name: "June S.",
+      location: "Stockport",
+    },
   ];
 
   const isMobile = window.innerWidth <= 768; // Detect mobile screens
@@ -417,7 +423,7 @@ const Home = () => {
             <div className="row">
               <div className="col-1">
                 <h3>Why Choose Us?</h3>
-                <h1>Expert Cleaning Makes Your Space Shine.</h1>
+                <h1>Our Expert Cleaning Makes Your Space Shine.</h1>
                 <p>
                   At Rade Integrated Services Ltd, we believe that we have a
                   duty to adhere to good environmental practice, and operate in
