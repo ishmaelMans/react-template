@@ -5,7 +5,7 @@ const Service = styled.section`
   margin-top: 100px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    height: 4450px;
+    height: 5050px;
   }
 
   .row {
