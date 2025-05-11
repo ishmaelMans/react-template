@@ -404,9 +404,9 @@ const Home = () => {
                   At Rade Integrated Services Ltd, we take pride in delivering
                   exceptional cleaning services tailored to meet the diverse
                   needs of our valued clients. <br />
-                  With a strong commitment to excellence, reliability and
-                  customer satisfaction, we have established ourselves as a
-                  premier cleaning service provider in the industry.
+                  With strong commitment to excellence, reliability and customer
+                  satisfaction, we have established ourselves as a premier
+                  cleaning service provider in the industry.
                 </p>
                 <Link to="/about" className="btn">
                   Learn More
