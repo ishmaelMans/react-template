@@ -244,7 +244,6 @@ const About = () => {
                               <li>
                                 <a href="/terms">Terms & Conditions</a>
                               </li>
-                              s
                             </ul>
                           )}
                         </li>

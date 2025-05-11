@@ -245,7 +245,6 @@ const Services = () => {
                               <li>
                                 <a href="/terms">Terms & Conditions</a>
                               </li>
-                              s
                             </ul>
                           )}
                         </li>
@@ -269,7 +268,7 @@ const Services = () => {
           <div className="container">
             <div className="row">
               <img src={logo} alt="" width="150px" height="50px" />
-              <h1>Provide Worldwide Service For Good Customers</h1>
+              <h1>Your Solution for Professional Cleaning Services</h1>
               <h3>What We Do</h3>
               <div className="services">
                 <div className="service">
@@ -294,10 +293,11 @@ const Services = () => {
                   <div className="content">
                     <h3>Commercial Cleaning</h3>
                     <p>
-                      It enhances workplace hygiene, professionalism, and
-                      productivity. Our expert services ensure spotless,
-                      organized spaces with eco-friendly solutions, tailored to
-                      meet business needs efficiently.
+                      Create a professional workspace for your employees and
+                      visitors with our customized office cleaning solutions.
+                      You Can also Impress your guests and secure positive
+                      reviews with our meticulous Airbnb cleaning services that
+                      ensure a welcoming stay.
                     </p>
                     {/* <button>Read More</button> */}
                   </div>
@@ -310,9 +310,10 @@ const Services = () => {
                   <div className="content">
                     <h3>Domestic Cleaning</h3>
                     <p>
-                      It keeps homes spotless, ensuring comfort, hygiene, and
-                      freshness. Our expert service tackles dirt, dust, and
-                      clutter with eco-friendly solutions for a healthier space.
+                      Maintain a clean and organized environment with our
+                      regular weekly/Fortnightly/Monthly cleaning services to
+                      stay on top of household chores. Our Tailored cleaning
+                      schedules to fit your lifestyle, with flexible options.
                     </p>
                     {/* <button>Read More</button> */}
                   </div>
@@ -354,10 +355,10 @@ const Services = () => {
                   <div className="content">
                     <h3>Oven Cleaning </h3>
                     <p>
-                      removes grease, grime, and burnt residue, restoring shine
-                      and efficiency. Our expert service ensures a spotless oven
-                      using safe, eco-friendly solutions for a healthier
-                      kitchen.
+                      We remove grease, grime, and burnt residue, restoring
+                      shine and efficiency. Our expert oven cleaning service
+                      ensures a spotless oven using safe solutions for a
+                      healthier kitchen.
                     </p>
                     {/* <button>Read More</button> */}
                   </div>
@@ -374,6 +375,21 @@ const Services = () => {
                       a wide range of ovens, including gas and electric, to our
                       sparkling best. If you’re looking for professional oven
                       cleaning near you, look no further than our team.
+                    </p>
+                    {/* <button>Read More</button> */}
+                  </div>
+                </div>
+                <div className="service">
+                  <img
+                    src="https://images.pexels.com/photos/6169661/pexels-photo-6169661.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
+                  <div className="content">
+                    <h3>Man & Van Services</h3>
+                    <p>
+                      Moving can be a hassle, but with our man and van services,
+                      you can trust us to handle the heavy lifting and transport
+                      of your belongings with car and efficiency.
                     </p>
                     {/* <button>Read More</button> */}
                   </div>

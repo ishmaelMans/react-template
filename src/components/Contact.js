@@ -246,7 +246,6 @@ const Contact = () => {
                               <li>
                                 <a href="/terms">Terms & Conditions</a>
                               </li>
-                              s
                             </ul>
                           )}
                         </li>
