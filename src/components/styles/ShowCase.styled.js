@@ -8,17 +8,17 @@ const ShowCase = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(124, 124, 124);
+  background-color: ${({ theme }) => theme.color.darkBlue};
   color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 50px;
 
   h1 {
     font-size: 5rem;
-    
+
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
       font-size: 3rem;
-      
+    }
   }
 `;
 

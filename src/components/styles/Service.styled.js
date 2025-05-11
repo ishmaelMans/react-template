@@ -5,7 +5,7 @@ const Service = styled.section`
   margin-top: 100px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    height: 5050px;
+    height: 4550px;
   }
 
   .row {
@@ -52,7 +52,7 @@ const Service = styled.section`
         @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
           width: 100%;
           height: 500px;
-          margin-bottom: 100px;
+          margin-bottom: 30px;
         }
 
         img {
