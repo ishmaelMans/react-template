@@ -403,7 +403,7 @@ const Home = () => {
                   needs of our valued clients. <br />
                   With a strong commitment to excellence, reliability and
                   customer satisfaction, we have established ourselves as a
-                  premier cleaning service provider in a industry.
+                  premier cleaning service provider in the industry.
                 </p>
                 <Link to="/about" className="btn">
                   Learn More
