@@ -241,9 +241,6 @@ const Contact = () => {
                                 <a href="/helps & faqs">Helps & Faqs</a>
                               </li>
                               <li>
-                                <a href="/appointment">Appointment</a>
-                              </li>
-                              <li>
                                 <a href="/terms">Terms & Conditions</a>
                               </li>
                             </ul>
